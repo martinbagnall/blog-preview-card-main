@@ -1,0 +1,87 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: hsl(47, 88%, 63%);
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: "Figtree", sans-serif;
+  font-size: 16px;
+  color: hsl(0, 0%, 50%);
+  font-weight: 500;
+}
+
+.card {
+  width: 384px;
+  background: white;
+  padding: 24px;
+  border-radius: 20px;
+  border: 1px solid black;
+  box-shadow: 10px 10px 0 1px black;
+}
+
+.header-image {
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.button {
+  border: none;
+  background: hsl(47, 88%, 63%);
+  padding: 7px 12px;
+  border-radius: 6px;
+  color: black;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.sub-heading {
+  color: #000;
+  margin-bottom: 10px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+.main-heading {
+  font-weight: 800;
+  font-size: 26px;
+  color: #000;
+  text-decoration: none;
+}
+
+.main-heading:hover,
+.main-heading:focus {
+  color: hsl(47, 88%, 63%);
+}
+
+.profile {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.profile-image {
+  width: 32px;
+  height: 32px;
+}
+
+.profile-name {
+  color: #000;
+  font-weight: 800;
+  font-size: 14px;
+}
